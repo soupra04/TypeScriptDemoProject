@@ -1,3 +1,4 @@
+"use strict";
 var weekno = 1;
 switch (weekno) {
     case 1:

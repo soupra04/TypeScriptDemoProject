@@ -1,3 +1,4 @@
+"use strict";
 var myarray = [[10, 20], [40, 50], [70, 80]];
 console.log(myarray);
 var myarray2 = [[10, "xyz"], ["abc", 100]];

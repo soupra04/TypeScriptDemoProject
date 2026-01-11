@@ -1,3 +1,4 @@
+"use strict";
 //another way to declare array
 //var fruits: Array<String>;
 //fruits=["apple","mango","banana"];

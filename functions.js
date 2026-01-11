@@ -1,3 +1,4 @@
+"use strict";
 function display() {
     console.log("Welcome to TypeScript");
 }
@@ -11,6 +12,6 @@ var res = Sum(100, 200);
 console.log(res);
 ///anonymous functions
 var greeting = function () {
-    console.log("Hello Worls!!");
+    console.log("Hello World!!");
 };
 greeting();

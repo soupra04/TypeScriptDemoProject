@@ -1,5 +1,6 @@
+"use strict";
 var str = "welcome";
-var mystring1 = "welcome to TypeScript";
+let mystring1 = "welcome to TypeScript";
 //charAt();
 console.log(mystring1.charAt(5));
 //concat

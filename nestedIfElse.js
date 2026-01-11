@@ -1,3 +1,4 @@
+"use strict";
 var weekno = 1;
 if (weekno == 1) {
     console.log("Sunday");
@@ -16,4 +17,7 @@ else if (weekno == 5) {
 }
 else if (weekno == 6) {
     console.log("Saturday");
+}
+else {
+    console.log("invalid weekno");
 }
