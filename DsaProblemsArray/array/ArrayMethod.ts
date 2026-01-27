@@ -17,6 +17,14 @@ const num3:number[] = [ 1 , 8, 7];
 const mergeArray: number [] = num.concat(num3); //concat() method concat two array end to end
 console.log(mergeArray);
 
-//console.log(num.copyWithin(5,0,1)) // 5 2 7 8  5 2
+//console.log(num.copyWithin(5,0,1)) // 5 2 7 8  5 2 //copy element withing same array  target , stat , end
 
+num3.splice(2,2,10,100); //The splice() method can be used to add new items to an array: position, no of ele to be removed, new ele, new ele
+console.log(num3);
 
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(0, 1);
+console.log(fruits);
+
+const citrus = fruits.slice(1); //Slice out a part of an array starting from array element 1 (
+console.log(citrus);

@@ -14,4 +14,11 @@ console.log(Array.isArray(num)); //returns true if num is array
 var num3 = [1, 8, 7];
 var mergeArray = num.concat(num3); //concat() method concat two array end to end
 console.log(mergeArray);
-console.log(num.copyWithin(5, 0, 1)); // 5 2 7 8  5 2
+//console.log(num.copyWithin(5,0,1)) // 5 2 7 8  5 2 //copy element withing same array  target , stat , end
+num3.splice(2, 2, 10, 100); //The splice() method can be used to add new items to an array: position, no of ele to be removed, new ele, new ele
+console.log(num3);
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(0, 1);
+console.log(fruits);
+var citrus = fruits.slice(1);
+console.log(citrus);
