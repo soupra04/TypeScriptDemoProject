@@ -1,9 +1,10 @@
-var name3 = "umbrella";
-var name4 = name3.split('');
+"use strict";
+let name3 = "umbrella";
+let name4 = name3.split('');
 console.log(name4);
-var vcount = 0;
-var ccount = 0;
-for (var i = 0; i < name4.length - 1; i++) {
+let vcount = 0;
+let ccount = 0;
+for (let i = 0; i < name4.length - 1; i++) {
     if (name4[i] == 'a' ||
         name4[i] == 'e' ||
         name4[i] == 'o' ||
