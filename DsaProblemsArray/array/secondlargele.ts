@@ -5,6 +5,9 @@ for(let i=ele.length-1;i>=0;i--) {
     if(ele[i]<max1){
         max1=ele[i];
         break;
+    } else if(ele[i]==max1) {
+        continue;
+
     }
 
 

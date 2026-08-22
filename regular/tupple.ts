@@ -1,0 +1,1 @@
+let ourTuple: [number, boolean, string] = [ 5 ,true,"true"];

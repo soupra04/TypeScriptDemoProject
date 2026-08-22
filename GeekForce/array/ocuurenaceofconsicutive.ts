@@ -1,0 +1,5 @@
+function countofOddandEven (arr:number[]){
+
+
+
+}

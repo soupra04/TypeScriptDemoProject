@@ -8,6 +8,6 @@ for(let i:number=0;i<dup.length;i++) {
 
     }
  
-    
+    console.log(dup1);
 }
 console.log(dup1);

@@ -1,6 +1,6 @@
 let ele1:number[] = [ 1 , 8 , 5, 2 , 6];
 let iSorted:boolean = true;
-for(let i=0;i<ele1.length;i++) {
+for(let i=0;i<ele1.length-1;i++) {
     if(ele1[i]>ele1[i+1]) {
         iSorted=false;
         break

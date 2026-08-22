@@ -1,0 +1,6 @@
+function perfectNumber(num: number) {
+
+    
+
+
+}

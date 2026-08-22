@@ -1,0 +1,16 @@
+let num:number;
+num= 15;
+
+
+let n : number = 15;
+
+let lname = "maity"; // type Inference 
+//when you give explicitly type then its called type annontations
+
+let amt : number ;
+
+function add(a:any,b:any) {
+    return a+b;
+
+}
+add("so","a");
